@@ -2,3 +2,39 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+
+}
+
+/* SIDE MENU */
+
+body {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.navbar {
+    width: 25%;
+    padding: 2em;
+    background-color: white;
+    min-height: 100dvh;
+}
+
+/* -- Nav Header*/
+
+/* -- New Chat Section */
+
+/* -- Contact List */
+
+
+/* BODY */
+
+.section {
+    background-color: #f3f3f3;
+}
+
+
+
