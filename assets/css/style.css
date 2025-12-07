@@ -17,6 +17,8 @@
     --btn-bg-active-color: #D4DCFF;
 
     --main-border: 0.5px;
+
+    --bt-text-size: 1em;
 }
 
 body {
@@ -102,7 +104,31 @@ i {
     gap: 10px;
 }
 
-/* -- New Chat Section */
+/* -- New Chat Button Section */
+
+.button-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5em;
+    border: solid var(--main-border) var(--border-grey-color);
+}
+
+.btn-chat {
+    border: none;
+    background-color: var(--btn-bg-color);
+    color: white;
+    font-size: var(--bt-text-size);
+    padding: 0.5em 2em;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.btn-chat:hover {
+    background-color: var(--btn-bg-hover-color);
+    transition: 0.3s;
+    transform: scale(1.1);
+}
 
 /* -- Contact List */
 
