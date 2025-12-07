@@ -1,30 +1,104 @@
+/* --- AJUSTES GENERALES --- */
+
 * {
     margin: 0;
     padding: 0;
 }
 
-body {
+:root {
+    --bg-white-color: #ffffff;
+    --bg-soft-grey-color: #f7f7f7;
+    --text-primary-color: #1b1f21;
+    --text-grey-color: #BEC1BB;
+    --border-grey-color:  #E8EBE4;
+    --icon-color: #444749;
+    --btn-bg-color: #A491D2;
+    --btn-bg-hover-color: #CDC3E6;
+    --btn-bg-active-color: #D4DCFF;
 
+    --main-border: 0.5px;
 }
-
-/* SIDE MENU */
 
 body {
     display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: row;
+    font-family: "Roboto";
 }
 
+h1 {
+    font-size: 2.8em;
+    font-weight: 400;
+}
+
+h6 {
+    font-size: 1em;
+    font-weight: 400;
+}
+
+p {
+    font-size: 0.87em;
+    font-weight: 400;
+}
+
+small {
+    font-size: 0.62em;
+    font-weight: 400;
+    color: var(--text-grey-color);
+}
+
+/* iconos */
+i {
+    font-size: 1.3em;
+    color: var(--icon-color);
+    cursor: pointer;
+}
+
+/* --- SIDE MENU --- */
+
 .navbar {
-    width: 25%;
-    padding: 2em;
-    background-color: white;
+    width: 20%;
+    border: solid var(--main-border) var(--border-grey-color);
+    background-color: var(--bg-white-color);
     min-height: 100dvh;
 }
 
 /* -- Nav Header*/
 
+.profile-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 3em;
+    padding: 0.5em 1em;
+    border: solid var(--main-border) var(--border-grey-color);
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 16px;
+}
+
+#profile-pic {
+    width: auto;
+    height: 100%;
+    border-radius: 100%;
+    ;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.options {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
 /* -- New Chat Section */
 
 /* -- Contact List */
@@ -32,8 +106,10 @@ body {
 
 /* BODY */
 
-.section {
-    background-color: #f3f3f3;
+.main {
+    width: 80%;
+    background-color: var(--bg-soft-grey-color);
+    min-height: 100dvh;
 }
 
 
