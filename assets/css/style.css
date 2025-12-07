@@ -65,7 +65,7 @@ i {
     min-height: 100dvh;
 }
 
-/* -- Nav Header*/
+/* -- Profile & Contact List -- */
 
 .profile-box {
     display: flex;
@@ -84,11 +84,11 @@ i {
     gap: 16px;
 }
 
-#profile-pic {
+.profile-pic {
     width: auto;
     height: 100%;
     border-radius: 100%;
-    ;
+    border: solid 1px var(--border-grey-color);
 }
 
 .contact-info {
@@ -99,6 +99,7 @@ i {
 
 .options {
     display: flex;
+    justify-content: end;
     flex-direction: row;
     align-items: center;
     gap: 10px;
@@ -129,9 +130,6 @@ i {
     transition: 0.3s;
     transform: scale(1.1);
 }
-
-/* -- Contact List */
-
 
 /* BODY */
 
