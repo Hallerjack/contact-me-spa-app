@@ -183,11 +183,11 @@ i {
 
 @media (max-width: 600px) {
     .navbar {
-        width: 60%;
+        min-width: 100%;
     }
     
     .main {
-        width: 40%;
+        min-width: auto;
     }
 
     #logo {
@@ -196,7 +196,8 @@ i {
     }
 
     h1 {
-        font-size: 1.5em;
+        font-size: 1.3em;
+        font-weight: 600;
         margin-bottom: 1em;
     }
 }
