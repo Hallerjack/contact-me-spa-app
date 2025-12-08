@@ -182,8 +182,10 @@ i {
 }
 
 @media (max-width: 600px) {
+
     .navbar {
         min-width: 100%;
+        overflow: hidden;
     }
     
     .main {
