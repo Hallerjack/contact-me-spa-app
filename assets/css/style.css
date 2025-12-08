@@ -7,7 +7,7 @@
 
 :root {
     --bg-white-color: #ffffff;
-    --bg-soft-grey-color: #f7f7f7;
+    --bg-soft-grey-color: #ececec;
     --text-primary-color: #1b1f21;
     --text-grey-color: #BEC1BB;
     --border-grey-color:  #E8EBE4;
@@ -74,6 +74,11 @@ i {
     height: 3em;
     padding: 0.5em 1em;
     border: solid var(--main-border) var(--border-grey-color);
+}
+
+.profile-box:hover {
+    background-color: var(--bg-soft-grey-color);
+    transition: 0.3s;
 }
 
 .profile {
